@@ -25,8 +25,9 @@
           <div class="divider"></div>
           <!-- buttons -->
           <div>
-            <div id="show-add-money" class="btn btn-lg">Add Money</div>
-            <div id="show-cash-out" class="btn btn-lg">Cash Out</div>
+            <div id="show-add-money" class="btn btn-md">Add Money</div>
+            <div id="show-cash-out" class="btn btn-md">Cash Out</div>
+            <div id="show-transaction" class="btn btn-md">Transaction</div>
           </div>
           <div class="divider"></div>
           <!-- input field -->
@@ -70,10 +71,18 @@
               </div>
             </form>
           </div>
+          <!-- transaction -->
+          <div id="transaction-form" class="hidden">
+            <h1 class="text-center font-black text-2xl">Transaction</h1>
+            <div id="transaction-container"></div>
+          </div>
         </div>
       </div>
     </div>
   </main>
-  <script src="./script/home.js"></script>
+  <script src="script/utilities.js"></script>
+  <script src="script/features.js"></script>
+  <script src="script/add-money.js"></script>
+  <script src="script/cash-out.js"></script>
 </body>
 </html>
